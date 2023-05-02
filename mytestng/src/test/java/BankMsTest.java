@@ -47,7 +47,7 @@ public class BankMsTest {
     
    	   @Test
     public void testBranch(){
-        assertEquals(bankMs.getBranch(), "chicago");
+        assertEquals(bankMs.getBranch(), "Chicago");
     }
 	
 	   @Test
@@ -62,7 +62,7 @@ public class BankMsTest {
 		
 		   @Test
     public void testPhone(){
-        assertEquals(bankMs.getPhone(), 555555555);
+        assertEquals(bankMs.getPhone(), 312456895);
     }
     
 }
